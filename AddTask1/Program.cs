@@ -2,7 +2,7 @@
     2 -> 2
     -3 -> 3
     -7 -> 7 */
-Console.Write("Программа для определения модуля числа");
+Console.WriteLine("Программа для определения модуля числа");
 Console.Write("Введите число: ");
 string s = Console.ReadLine();
 int n = int.Parse(s);
