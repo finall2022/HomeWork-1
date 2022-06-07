@@ -9,11 +9,13 @@ int a = int.Parse(ia);
 Console.Write("Введите число b: ");
 string ib = Console.ReadLine();
 int b = int.Parse(ib);
-if(a > b)
+if (a > b)
 {
-    Console.WriteLine($"Число a = {a} больше числа b = {b}");
+    Console.WriteLine($"Максимальное число a = {a}");
+    Console.WriteLine($"Минимальное число b = {b}");
 }
 else
 {
-    Console.WriteLine($"Число b = {b} больше числа a = {a}");
+    Console.WriteLine($"Минимальное число a = {a}");
+    Console.WriteLine($"Максимальное число b = {b}");
 }
